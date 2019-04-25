@@ -15,3 +15,20 @@
 /Users/Guest/Desktop/ScrabbleScore.Solution/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.csproj.CopyComplete
 /Users/Guest/Desktop/ScrabbleScore.Solution/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.dll
 /Users/Guest/Desktop/ScrabbleScore.Solution/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.pdb
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.Tests.deps.json
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.Tests.runtimeconfig.json
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.Tests.runtimeconfig.dev.json
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.Tests.dll
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.Tests.pdb
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.dll
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/bin/Debug/netcoreapp2.2/Scrabble.pdb
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.csprojAssemblyReference.cache
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.csproj.CoreCompileInputs.cache
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.AssemblyInfoInputs.cache
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.AssemblyInfo.cs
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.csproj.CopyComplete
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.dll
+/Users/tessa/Documents/Epicodus/02 C#/Week01/ScrabbleScoreCS/Scrabble.Tests/obj/Debug/netcoreapp2.2/Scrabble.Tests.pdb

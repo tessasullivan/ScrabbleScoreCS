@@ -36,7 +36,8 @@ namespace Scrabble.Tests
         string word = "bob";
         string expectedResult = "BOB";
         Scrabble newScrabble = new Scrabble(word);
-        Assert.AreEqual(expectedResult, newScrabble.WordToUpper(word));
+        newScrabble.WordToUpper();
+        Assert.AreEqual(expectedResult, newScrabble.GetWord());
       }
       [TestMethod]
       public void WordToCharArray_WordToCharArray_CharArray()
@@ -44,7 +45,8 @@ namespace Scrabble.Tests
           string word = "joe";
           char[] expectedResult = new char[] {'j', 'o', 'e'};
           Scrabble newScrabble = new Scrabble(word);
-          CollectionAssert.AreEqual(expectedResult, newScrabble.WordToCharArray(word));
+          char[] actualResult = newScrabble.WordToCharArray();
+          CollectionAssert.AreEqual(expectedResult, actualResult);
       }
 
       [TestMethod]
@@ -62,14 +64,14 @@ namespace Scrabble.Tests
         string word = "A";
         int expectedResult = 1;
         Scrabble newScrabble = new Scrabble(word);
-        Assert.AreEqual(expectedResult, newScrabble.GetScore(word));
+        Assert.AreEqual(expectedResult, newScrabble.GetScore());
       }
       public void GetScore_MultipleLetterWord_6()
       {
         string word = "the";
         int expectedResult = 6;
         Scrabble newScrabble = new Scrabble(word);
-        Assert.AreEqual(expectedResult, newScrabble.GetScore(word));
+        Assert.AreEqual(expectedResult, newScrabble.GetScore());
       }
   }
 }

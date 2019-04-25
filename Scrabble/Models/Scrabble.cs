@@ -20,10 +20,22 @@ namespace Scrabble
         {
             _word = newWord;
         }
-        public int GetScore(string word)
+
+        public void WordToUpper()
         {
-            string upperWord = WordToUpper(word);
-            char[] result = WordToCharArray(upperWord);
+            SetWord(GetWord().ToUpper());
+        } 
+        
+        public char[] WordToCharArray()
+        {
+            return GetWord().ToCharArray();
+        }
+
+        public int GetScore()
+        {
+
+            WordToUpper();
+            char[] result = WordToCharArray();
             int score = 0;
             foreach(char letter in result) 
             {
@@ -67,15 +79,6 @@ namespace Scrabble
                 return 0;
             }
             
-        }
-        public string WordToUpper(string word)
-        {
-            return word.ToUpper();
-        } 
-        public char[] WordToCharArray(string word)
-        {
-            char[] result = word.ToCharArray();
-            return result;
         }
 
 

@@ -19,7 +19,15 @@ namespace Scrabble
         }
         public int GetScore(string word)
         {
-            return 0;
+            string upperWord = WordToUpper(word);
+            char[] result = WordToCharArray(upperWord);
+            int score = 0;
+            foreach(char letter in result) 
+            {
+                score += LookupLetterScore(letter);
+            }
+
+             return score;
         }
         public int LookupLetterScore(char letter)
         {
@@ -57,5 +65,16 @@ namespace Scrabble
             }
             
         }
+        public string WordToUpper(string word)
+        {
+            return word.ToUpper();
+        } 
+        public char[] WordToCharArray(string word)
+        {
+            char[] result = word.ToCharArray();
+            return result;
+        }
+
+
     }
 }

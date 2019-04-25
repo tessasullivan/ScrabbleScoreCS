@@ -31,6 +31,23 @@ namespace Scrabble.Tests
           Assert.AreEqual(updatedWord, result);
       }
       [TestMethod]
+      public void WordToUpper_WordToUpper_UpperCaseString()
+      {
+        string word = "bob";
+        string expectedResult = "BOB";
+        Scrabble newScrabble = new Scrabble(word);
+        Assert.AreEqual(expectedResult, newScrabble.WordToUpper(word));
+      }
+      [TestMethod]
+      public void WordToCharArray_WordToCharArray_CharArray()
+      {
+          string word = "joe";
+          char[] expectedResult = new char[] {'j', 'o', 'e'};
+          Scrabble newScrabble = new Scrabble(word);
+          CollectionAssert.AreEqual(expectedResult, newScrabble.WordToCharArray(word));
+      }
+
+      [TestMethod]
       public void LookupLetterScore_Integer()
       {
         char letter = 'A';
@@ -39,13 +56,20 @@ namespace Scrabble.Tests
         Scrabble newScrabble = new Scrabble(word);
         Assert.AreEqual(expectedResult, newScrabble.LookupLetterScore(letter));
       }
-    //   [TestMethod]
-    //   public void GetScore_SingleLetterWord_1()
-    //   {
-    //     string word = "A";
-    //     int expectedResult = 1;
-    //     Scrabble newScrabble = new Scrabble(word);
-    //     Assert.AreEqual(expectedResult, newScrabble.GetScore(word));
-    //   }
+      [TestMethod]
+      public void GetScore_SingleLetterWord_1()
+      {
+        string word = "A";
+        int expectedResult = 1;
+        Scrabble newScrabble = new Scrabble(word);
+        Assert.AreEqual(expectedResult, newScrabble.GetScore(word));
+      }
+      public void GetScore_MultipleLetterWord_6()
+      {
+        string word = "the";
+        int expectedResult = 6;
+        Scrabble newScrabble = new Scrabble(word);
+        Assert.AreEqual(expectedResult, newScrabble.GetScore(word));
+      }
   }
 }

@@ -7,13 +7,13 @@
 ## Description
 
 When the user enters a word, the program will return the score for that word based on the following values:
-A, E, I, O, U, L, N, R, S, T       1
-D, G                               2
-B, C, M, P                         3
-F, H, V, W, Y                      4
-K                                  5
-J, X                               8
-Q, Z                               10
+* A, E, I, O, U, L, N, R, S, T       1
+* D, G                               2
+* B, C, M, P                         3
+* F, H, V, W, Y                      4
+* K                                  5
+* J, X                               8
+* Q, Z                               10
 
 ### Specs
 | Spec | Input | Output |
@@ -28,10 +28,10 @@ Q, Z                               10
 | User enters word which contains some of the above letters| Input: quick | Output: 21|
 | User enters word which contains some of the above letters| Input: brown | Output: 10|
 | User enters word which contains some of the above letters| Input: fox | Output: 13|
-| User enters word which contains some of the above letters| Input: jumps | Output: |
-| User enters word which contains some of the above letters| Input: over | Output: |
-| User enters word which contains some of the above letters| Input: lazy | Output: |
-| User enters word which contains some of the above letters| Input: dog | Output: |
+| User enters word which contains some of the above letters| Input: jumps | Output: 16|
+| User enters word which contains some of the above letters| Input: over | Output: 7|
+| User enters word which contains some of the above letters| Input: lazy | Output: 16|
+| User enters word which contains some of the above letters| Input: dog | Output: 5|
 | User enters word which is longer than the limit 16| Input: supercalifragistic | Output: Error message and user prompted to enter a new word|
 
 
@@ -47,7 +47,7 @@ Currently does not include Program.cs so it cannot be run directly from the comm
     * dotnet test LeetSpeak.Tests
 
 ## Known Issues
-* No known issues at this time
+* No known issues
 
 ## Technologies Used
 

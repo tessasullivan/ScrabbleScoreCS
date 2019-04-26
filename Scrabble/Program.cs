@@ -9,7 +9,6 @@ namespace Scrabble
         {
             Console.WriteLine("Welcome to The Scrabble Score Generator");
             interactWithUser();
-
         }
         public static void interactWithUser()
         {
@@ -55,5 +54,4 @@ namespace Scrabble
             }
         }
     }
-
 }

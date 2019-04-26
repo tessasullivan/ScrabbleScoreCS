@@ -33,7 +33,6 @@ namespace Scrabble
 
         public int GetScore()
         {
-
             WordToUpper();
             char[] result = WordToCharArray();
             int score = 0;
@@ -41,7 +40,6 @@ namespace Scrabble
             {
                 score += LookupLetterScore(letter);
             }
-
              return score;
         }
         public int LookupLetterScore(char letter)
@@ -77,10 +75,7 @@ namespace Scrabble
             else
             {
                 return 0;
-            }
-            
+            }  
         }
-
-
     }
 }

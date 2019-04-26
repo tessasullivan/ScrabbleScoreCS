@@ -48,7 +48,6 @@ namespace Scrabble.Tests
           char[] actualResult = newScrabble.WordToCharArray();
           CollectionAssert.AreEqual(expectedResult, actualResult);
       }
-
       [TestMethod]
       public void LookupLetterScore_Integer()
       {
